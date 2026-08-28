@@ -31,6 +31,7 @@
         <poi.version>5.4.0</poi.version>
         <velocity.version>2.3</velocity.version>
         <springdoc.version>3.0.3</springdoc.version>
+        <tools-jackson-core.jackson-databind.version>3.1.5</tools-jackson-core.jackson-databind.version>
     </properties>
 
     <!-- 依赖声明 -->
@@ -200,6 +201,11 @@
                 <groupId>com.ruoyi</groupId>
                 <artifactId>ruoyi-common</artifactId>
                 <version>${ruoyi.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>tools.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${tools-jackson-core.jackson-databind.version}</version>
             </dependency>
 
         </dependencies>
